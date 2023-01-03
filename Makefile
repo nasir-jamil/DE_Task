@@ -14,7 +14,7 @@ up: create
 #   Create the output file
 	docker compose up output-python
 #   Remove container
-	docker compose down
+#	docker compose down
 
 #   Will remove all images and volumes after user confirmation
 #   docker system prune -a --volumes
